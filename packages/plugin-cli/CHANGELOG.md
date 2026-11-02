@@ -1,5 +1,15 @@
 # @emdash-cms/registry-cli
 
+## 0.13.6
+
+### Patch Changes
+
+- [#4370](https://github.com/emdash-cms/emdash/pull/4370) [`4e95f4f`](https://github.com/emdash-cms/emdash/commit/4e95f4f23d9efe288b255d5f94963f8f97dac27a) Thanks [@danielmlr](https://github.com/danielmlr)! - Updates the registry search descriptions in the `searchPackages` lexicon, the `emdash-plugin search` help, and `RegistryCollectionFilter.q`: search also matches a package's slug and its publisher's handle without the domain ending (`meekmedia` for `meekmedia.bsky.social`), and matches the last word as a prefix.
+- Updated dependencies [[`4e95f4f`](https://github.com/emdash-cms/emdash/commit/4e95f4f23d9efe288b255d5f94963f8f97dac27a)]:
+  - @emdash-cms/registry-lexicons@0.7.1
+  - @emdash-cms/registry-client@0.7.2
+  - @emdash-cms/registry-verification@0.3.5
+
 ## 0.13.5
 
 ### Patch Changes
